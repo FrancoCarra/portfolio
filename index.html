@@ -32,12 +32,12 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Franco</span><br> Web Developer</h1>
-                    <a href="#" class="button">My CV</a>
+                    <a href="/assets/Currículum_1 (3).pdf" target="_blank" rel="noopener noreferrer" class="button">My CV</a>
                 </div>
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bx-mail-send' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="www.linkedin.com/in/francocarra" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:francocarra6@gmail.com" class="home__social-icon"><i class='bx bx-mail-send' ></i></a>
+                    <a href="https://github.com/FrancoCarra" target="_blank" rel="noopener noreferrer" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -59,7 +59,7 @@
                     </div>
                     <div>
                         <h2 class="about__subtitle">I'am Franco</h2>
-                        <p class="about__text">I am a Full Stack Development student from Argentina, currently living in Turin, IT. I have great ability to adapt to all kinds of environments and always bring the best of me. I am characterized by my facility for teamwork and my enthusiasm for learning and developing my skills. Looking for a job opportunity in which to gain more experience.
+                        <p class="about__text">I am a Full Stack Development student from Argentina, currently living in Turin, IT. With availability to travel, settle, wherever necessary. I have great ability to adapt to all kinds of environments and always bring the best of me. I am characterized by my facility for teamwork and my enthusiasm for learning and developing my skills. Looking for a job opportunity in which to gain more experience.
 
                         </p>           
                     </div>                                   
@@ -127,13 +127,13 @@
                 <h2 class="section-title">Work</h2>
                 <div class="work__container bd-grid">
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.jpeg" alt="">
+                        <img src="assets/img/HTC-PAGE1.png" alt="">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.jpeg" alt="">
+                        <img src="assets/img/HTC-PAGE2.png" alt="">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.jpeg" alt="">
+                        <img src="assets/img/HTC-PAGE3.png" alt="">
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work1.jpeg" alt="">
@@ -149,10 +149,10 @@
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <form class="contact__form form" action="https://formspree.io/f/mpznaakg" method="POST">
+                        <input type="text" placeholder="Name" class="contact__input" required name="nombre">
+                        <input type="mail" placeholder="Email" class="contact__input" required name="mail">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Enviar" class="contact__button button">
                     </form>
                 </div>
@@ -169,4 +169,5 @@
         </footer>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="assets/script.js"></script>
+        <script src="assets/formulario.js"></script>
     </body>
